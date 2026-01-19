@@ -115,6 +115,8 @@ ________________________________________
 
 Author
 Afzal
+
 React. FastAPI. DeepFace. PostgreSQL. 
+
 This project is for academic and learning purposes.
 
