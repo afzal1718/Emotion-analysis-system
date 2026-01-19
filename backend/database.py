@@ -1,7 +1,11 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker,declarative_base
+from dotenv import load_dotenv
+import os
 
-Database_url="postgresql://postgres:1234@localhost:5432/Emotion_db"
+load_dotenv()
+
+Database_url=os.getenv("Database_url")
 
 engine=create_engine(Database_url)
 
