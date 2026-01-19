@@ -1,0 +1,50 @@
+.camera-box{
+    width: 550px;
+    height: 350px;
+    margin: 20px auto;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.emotion-text{
+    text-align: center;
+    margin-top: 16px;
+    font-weight: 600;
+}
+
+/* emotion colors */
+.emotion-happy{
+    color:green;
+}
+
+.emotion-surprise{
+    color: yellowgreen;
+}
+
+.emotion-neutral{
+    color:blue
+}
+
+.emotion-sad{
+    color: lightblue;
+}
+
+.emotion-angry{
+    color: red;
+}
+.emotion-fear{
+    color:purple;
+}
+.emotion-disgust{
+    color: orange;
+}
+.emotion-default{
+    color:gray;
+}
+
+.btn{
+    display: block;
+    margin: 10px auto;
+}
